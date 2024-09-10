@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+			<beans>
+			<bean id="p" class="org.techhub.ProductApp">
+			<property name="id" value="3"/>
+			<property name="sal" value="parle-G"/>
+			<property name="price" value="5"/>
+			</bean>
+			</beans>

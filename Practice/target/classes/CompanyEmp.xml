@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+			<beans>
+			<bean id="employee" class="org.tech.AutoWriting.EmployeeApp">
+			<property name="id" value="1"/>
+			<property name="name" value="Ganesh"/>
+			<property name="sal" value="42443"/>
+			</bean>
+			  <bean id="c" class="org.tech.AutoWriting.Company" autowire="byName">
+  			</bean>
+			</beans>
